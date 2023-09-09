@@ -1,8 +1,6 @@
-上辺 = 10
-下辺 = 20
-高さ = 5
-単位 = "cm\u00B2"
+upper = 10
+bottom = 20
+height = 5
+index = "cm\u00B2"
 
-# 公式：台形の面積 =(上辺 + 下辺) × 高さ ÷ 2
-
-print(str(((上辺 + 下辺) * 高さ) / 2) + 単位)
+print(str((upper + bottom) * height / 2) + index)
